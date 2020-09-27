@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>Login page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  <style>
+	  body{
+	margin : 0;
+	padding : 0;
+	
+	background-size : cover;
+	background-position : center;
+	font-family : sans-serif;
+}
+
+/*--------courses----*/
+#courses
+{
+    padding : 100px 0;
+
+      
+}
+.course-row
+{
+  display:flex;
+  align-items : center;
+  flex-wrap: wrap;
+}
+.course-right-col
+{
+    flex-basis:50%;
+}
+.course-right-col img{
+	
+    width : 100%;
+}
+.course-left-col{
+    flex-basis:50%;
+}
+.course-text{
+    max-width: 350px;
+}
+.course-text button{
+    margin : 30px 0;
+}
+/*---offer---*/
+#offer button {
+    margin : 30px 0;
+
+}
+.loginbox{
+	width :465px;
+	height: 500px;
+	
+	
+	color :#000;
+	top : 55%;
+	left :50%;
+	position : absolute;
+	transform :translate(40%,-50%);
+    box-sizing : border-box;
+	padding : 70px 30px;
+ }   
+ .avatar{
+	 width : 100px;
+	 height : 100px;
+	 border-radius : 50%;
+	 position : absolute;
+	 top : -50px; 
+	 left : calc(50% - 50px);
+	 
+ }
+ h1{
+	 margin : 0;
+	 padding : 0 0 20px;
+	 text-align : center;
+	 font-size : 22px;
+ }
+ .loginbox p{
+	 margin:0;
+	 padding:0;
+	 font-weight:bold;
+ }	 
+ .loginbox input{
+	 width : 100%;
+	 margin-bottom : 20px;
+ }
+ .loginbox input[type="text"],input[type="password"]
+ {
+	 border: none;
+	 border-bottom: 1px solid #000;
+	 background : transparent;
+	 outline:none;
+	 height:40px;
+	 color : #000;
+	 font-size:16px;
+ }
+ .loginbox input[type="submit"]
+ {
+	 border:none;
+	 outline:none;
+	 
+	 height:40px;
+	 background:rgb(121, 13, 121);
+	 
+	 color:#fff;
+	 font-size:18px;
+	 border-radius:20px;
+ }
+ .loginbox input[type="submit"]:hover
+ {
+	 cursor:pointer;
+	 	 color:#000;
+ }
+.loginbox a{
+     text-decoration:none;
+     font-size:13px;
+     line-height:20px;
+     color:#000;
+}	
+.loginbox a{
+	text-decoration: none;
+	color:#000;
+}
+
+@media  only screen and (max-width : 770px)
+			
+{
+	
+
+
+}
+  </style>
+</head>
+<body>
+	<!--courses-->
+	<section id="courses">
+		<div class="container course-row">
+			<div class="loginbox">
+				
+				   <h1>Nice to have you back !</h1>
+				   <form action="courseavailable.html">
+					 <p>Username</p>
+					 <input type="text" name="" placeholder="Enter Username">
+					 <p>Password</p>
+					 <input type="password" name="" placeholder="Enter Password">
+					 
+					 <input class="animated pulse slow infinite" type="submit" name="" value="Login">
+					 <a href="forgetpassword.html">Forget password?</a><br>
+					 <a href="signup.html">Create an account</a>
+				</div>
+			<div class="course-right-col">
+				<img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\login.png" class="animated pulse slow infinite">
+			</div>
+		</div>
+	</section>
+    
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>quiz</title>
+        <link rel="stylesheet" href="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\css\course3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <div> 
+           <a href="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\index.html"> <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\logo.png" class="logo animated swing infinite"></a>
+        </div>
+        <nav class=""  id="sideNav">
+            <ul>
+                <li><a href="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\index.html">HOME</a></li>
+                
+                <li><a href="course2.html">BACK TO THE COURSE</a></li>
+                
+                <li><a href="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\index.html">LOGOUT</a></li>
+                
+            </ul>
+        </nav>
+        <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\menu.png" id="menuBtn">
+        <main class="container">
+            <section class="quiz-container">
+                <header class="quiz-header">
+                    <h2>Quiz</h2>
+                    <div class="quiz-results">
+                        <p><strong>Score:</strong> <span class="quiz-score"></span></p>
+                    </div>
+                </header>
+        
+                <!-- Quiz form -->
+                <form class="quiz-form" autocomplete="off">
+                    <!-- Question -->
+                    <div class="quiz-question" role="radiogroup">
+                        <p>Which rapper’s album featured the songs "N.Y. State of Mind" and "It Ain’t Hard to Tell"?</p>
+                        <div class="form-check">
+                            <input type="radio" id="q1a" name="q1" value="A">
+                            <label for="q1a">Notorius B.I.G.</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q1b" name="q1" value="B">
+                            <label for="q1b">Jay-Z</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q1c" name="q1" value="C">
+                            <label for="q1c">Nas</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q1d" name="q1" value="D">
+                            <label for="q1d">50 Cent</label>
+                        </div>
+                    </div>
+                    <!-- end question -->
+        
+                    <!-- Question -->
+                    <div class="quiz-question" role="radiogroup">
+                        <p>Who produced "Pony" (Ginuwine), "Big Pimpin’" (Jay-Z), and "Work It" (Missy Elliott)?</p>
+                        <div class="form-check">
+                            <input type="radio" id="q2a" name="q2" value="A">
+                            <label for="q2a">Dr. Dre</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q2b" name="q2" value="B">
+                            <label for="q2b">Timbaland</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q2c" name="q2" value="C">
+                            <label for="q2c">Pharrell</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q2d" name="q2" value="D">
+                            <label for="q2d">Diddy</label>
+                        </div>
+                    </div>
+                    <!-- end question -->
+        
+                    <!-- Question -->
+                    <div class="quiz-question" role="radiogroup">
+                        <p>Which singer has been called the Queen of Hip Hop Soul?</p>
+                        <div class="form-check">
+                            <input type="radio" id="q3a" name="q3" value="A">
+                            <label for="q3a">Mariah Carey</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q3b" name="q3" value="B">
+                            <label for="q3b">Alicia Keys</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q3c" name="q3" value="C">
+                            <label for="q3c">Aaliyah</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q3d" name="q3" value="D">
+                            <label for="q3d">Mary J. Blige</label>
+                        </div>
+                    </div>
+                    <!-- end question -->
+        
+                    <!-- Question -->
+                    <div class="quiz-question" role="radiogroup">
+                        <p>Which record label signed Dr. Dre, Tupac, and Snoop Dogg?</p>
+                        <div class="form-check">
+                            <input type="radio" id="q4a" name="q4" value="A">
+                            <label for="q4a">Junior Mafia</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q4b" name="q4" value="B">
+                            <label for="q4b">Death Row Records</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q4c" name="q4" value="C">
+                            <label for="q4c">The Dungeon Family</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" id="q4d" name="q4" value="D">
+                            <label for="q4d">Roc-A-Fella Records</label>
+                        </div>
+                    </div>
+                    <!-- end question -->
+        
+                    <button type="submit">Show results</button>
+                    
+                    
+                
+                    
+                
+                </form>
+                <!-- end quiz -->
+            </section>
+        </main>
+
+             
+          
+    </body>
+
+    <script>
+            
+   
+window.onload = function () {
+  document.querySelector(".text").classList.add("spaced");
+
+  const steps = document.querySelectorAll(".advice");
+  var count = 0;
+  setInterval(() => {
+    steps[count].style.display = "block";
+    steps[count].style.opacity = "1.0";
+  }, 3000);
+};
+
+      const correctAnswers = ['C', 'B', 'D', 'B']
+const form = document.querySelector('.quiz-form')
+const results = document.querySelector('.quiz-score')
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    let score = 0
+    let userAnswers = []
+
+    // get user answers
+    document.querySelectorAll('input[type=radio]').forEach(input => {
+        if(input.hasAttribute('name') && input.checked) {
+            userAnswers.push(input.value)
+            input.checked = false
+        }
+    })
+
+    // compare user answers with correct ones
+    userAnswers.forEach((answer, index) => {
+        if(answer === correctAnswers[index]) {
+            score += 25
+        }
+    })
+
+    // show score 
+    scrollTo(0, 0)
+    document.querySelector('.quiz-results').style.display = 'block'
+
+    // animate score
+    let output = 0;
+    const timer = setInterval(() => {
+        results.textContent = `${output}%`
+        if(output === score) {
+            clearInterval(timer)
+        } else {
+            output++
+        }
+    }, 10)
+})
+var menuBtn=document.getElementById("menuBtn");
+        var sideNav=document.getElementById("sideNav");
+         sideNav.style.right="-250px";
+         menuBtn.onclick=function()
+         {
+             if(sideNav.style.right=="-250px")
+             {
+                sideNav.style.right="0";
+             }
+             else{
+                sideNav.style.right="-250px";
+             }
+         }
+         var scroll = new SmoothScroll('a[href*="#"]', {
+speed: 1000,
+speedAsDuration: true
+});
+
+    </script>
+</html>

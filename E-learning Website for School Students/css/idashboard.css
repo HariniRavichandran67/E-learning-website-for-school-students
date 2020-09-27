@@ -1,0 +1,71 @@
+.header 
+			{
+				
+				padding: 12px;
+				text-align: lefts;
+				font-family: 'Imprima', sans-serif;
+			}
+.body
+{
+font-family: 'Imprima', sans-serif;
+}
+			
+.column
+			{
+				float: left;
+				width: 40%;
+				padding-top: 15px;
+				padding-left: 10px	
+			}
+.row:after 
+			{
+				content: "";
+				display: table;
+				clear: both;
+			}
+.col
+			{
+				float: left;
+				width:25%;
+				padding: 5px;
+			}	
+p.outset {border-style: outset;}
+
+
+
+.contain {
+  padding: 2px 16px;
+}
+
+a, a:hover {
+      text-decoration: none;
+      color: inherit;
+ }
+.container
+{
+    margin-top :8%;
+}
+.inner{
+    
+    overflow : hidden;
+
+
+}
+.inner img{
+    transition : all 1.5s ease;
+}
+.inner:hover img{
+    transform : scale(1.5);
+
+}
+.container topcourses h2{
+  font-size : 60px;
+  margin-top : 500px;
+}
+
+@media screen and (max-width:600px)
+			{
+				.column				{
+					width: 100%;
+				}
+			}

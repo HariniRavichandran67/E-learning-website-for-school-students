@@ -1,0 +1,351 @@
+<html>
+	<head>
+		<title>
+			my profile
+		</title>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+		
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA_Compatible" content ="ie=edge">
+        <title>Courses Available</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/18551d65ca.js" crossorigin="anonymous"></script>
+        <style>
+            body
+			{
+				margin : 0;
+				font-family: 'Imprima', sans-serif;
+			}
+
+			.header 
+			{
+				
+				padding: 10px;
+				text-align: center;
+			}
+			.column
+			{
+				float: left;
+				width: 30%;
+				padding: 5px;
+			}
+			.next
+			{
+				float: left;
+				padding: 5px;
+			}	
+			
+				p.outset {border-style: outset;}
+			.row:after 
+			{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.right
+			{
+				margin-left: 100px;
+			}
+			.center
+			{
+				text-align: center;
+			} 
+			.left
+			{	
+			margin-right: 100px;
+			}
+			input[type=text] 
+			{
+				width: 100%;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				resize: vertical;
+			}
+			input[type=email] 
+			{
+				width: 100%;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				resize: vertical;
+			}
+			input[type=password] 
+			{
+				width: 100%;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				resize: vertical;
+			}
+			label
+			{
+				padding: 12px 12px 12px 0;
+				display: inline-block;
+			}
+			.container 
+			{
+				border-radius: 5px;
+				padding: 20px;
+			}
+			.col-25
+			{
+				float: left;
+				width: 25%;
+				margin-top: 6px;
+			}
+			.col-75
+			{
+				float: left;
+				width: 50%;
+				margin-top: 6px;
+			}
+			input[type=submit] 
+			{
+				background-color: #2E8BC0 ;
+				color: white;
+				padding: 12px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				float: center;
+			}
+
+			input[type=submit]:hover
+			{
+				background-color: DodgerBlue;
+			}
+			.container2
+			{
+				margin-top :8%;
+			}
+			.inner
+			{
+				overflow : hidden;
+			}
+			.inner img
+			{
+				transition : all 1.5s ease;
+			}
+			.inner:hover img
+			{
+				transform : scale(1.5);
+
+			} 
+			.container topcourses h2
+			{
+				font-size : 60px;
+				margin-top : 500px;
+			}
+			#cus
+			{	
+				opacity: 0;
+				position: absolute;
+				
+			}
+			
+						.button {
+  background-color: #2E8BC0;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: white;
+}
+
+.button:hover
+			{
+				background-color: DodgerBlue;
+			}
+			@media screen and (max-width:600px)
+			{
+				.column 
+				{
+					width: 100%;
+				}
+			}
+			
+        </style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="column">
+						<div class="left">
+						<a href="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\index.html"><img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\logo5.png" height="100" width="100"></a>
+						</div>	
+					</div>
+					<div class="column">
+						<div class="center">
+							<center><h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEdit my profile</h1></center>
+						</div>		
+					</div>
+					
+							
+				</div>			
+			</div>
+		</div>	
+		<div class="row">
+			<div class="container">
+			<form>
+			<font size="5">
+				<div class="right">
+					<div class="center">
+						<label for="cus" class="btn "><i class="fas fa-user-graduate" style="font-size:150px;color:lightblue;"></i></label>
+						<input type="file" id="cus"><br>
+						<font size="5">change my profile photo</font> <br><br>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="name">User Name</label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="name"  placeholder="Your name">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="email">E-mail I'd</label>
+						</div>
+						<div class="col-75">
+							<input type="email" id="email"  placeholder="Your E-mail I'd">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="pas">Password</label>
+						</div>
+						<div class="col-75">
+							<input type="password" id="pas"  placeholder="Your password"><br><br>
+						</div>
+					</div>
+					<div class="center">
+						<input type="submit" value="save">
+					</div>
+				</div>
+				</font>
+			</form>
+			</div>
+		</div>
+		<div class="container topcourses">
+                <h2>Completed courses</h2>
+                
+                <div class="row justify-content-center">
+                    
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\english.jpg" height="250" width="90"" class="card-img-top" alt="...">
+                            </div>
+                           <div class="card-body text-center">
+                              <h5 class="card-title">Julius Caesar</h5>
+                              <br>
+                              <a href="course2.html" class="btn btn-warning ">Go to the course</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\history.jpg" height="250" width="90" class="card-img-top" alt="...">
+                            </div>
+                            
+                            <div class="card-body text-center">
+                              <h5 class="card-title">The Raise of nationalism in Europe</h5>
+                              
+                              <a href="course2.html" class="btn btn-warning ">Go to the course</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\carbon and its compounds.jpg" height="250" width="90" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Carbon and its compounds</h5>
+                               <br>
+                              <a href="course2.html" class="btn btn-warning ">Go to the course</a>
+                            </div>
+                          </div>
+                    </div>
+                
+                
+                </div>
+        </div>
+		<div class="container topcourses">
+                <h2>Currently learning</h2>
+                
+                <div class="row justify-content-center">
+                    
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\estudies.jpg" height="250" width="90" class="card-img-top" alt="...">
+                            </div>
+                           <div class="card-body text-center">
+                              <h5 class="card-title">Environmental studies</h5>
+                              <br>
+                              <a href="course2.html" class="btn btn-warning ">Go to the course</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\stringtheory.jpg" height="250" width="90" class="card-img-top" alt="...">
+                            </div>
+                            
+                            <div class="card-body text-center">
+                              <h5 class="card-title">String theory</h5>
+                              <br>
+                              <a href="course2.html" class="btn btn-warning ">Go to the course</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow" style="width: 20rem;">
+                            <div class="inner">
+                                <img src="C:\Users\HARINI RAVICHANDRAN\Documents\E-learning Website for School Students\images\astrophysics.jpg" height="250" width="90" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Astro physics</h5>
+                              <br>
+                              <a href="course2.html" class="btn btn-warning ">Go to the course</a>
+                            </div>
+                          </div>
+                    </div>
+                
+                
+                </div>
+                
+                
+                </div>
+            </div>	
+			
+			<br>
+			<br>
+			<center>
+			<button class="button">Log Out</button>
+			</center>	
+			<br>
+			<br>	
+				
+				
+					
+                
+                
+                
+				
+	</body>
+</html>
